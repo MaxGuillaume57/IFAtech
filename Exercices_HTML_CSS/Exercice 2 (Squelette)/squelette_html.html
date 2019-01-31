@@ -1,104 +1,178 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
    <meta charset="UTF-8">
+   <meta name="cv" content="Mon cv de Développeur">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   <title>Document</title>
+   <!-- <link rel="stylesheet" type="text/css" href="feuille css" /> -->
+   <title>CV NOM + PRENOM</title>
 </head>
 
 <body>
+   <header>
+      <h1>NOM + PRENOM</h1>
+      <h2> Intitulé </h2>
+   </header>
+   <nav class="menu">
+      <ul>
+         <li><a href="#Apropos">À propos</a></li>
+         <li><a href="#Experiences">Expériences profesionnelles</a></li>
+         <li><a href="#DiplomesFormations">Diplômes et Formations</a></li>
+         <li><a href="#Projets">Mes Projets</a></li>
+      </ul>
+   </nav>
+   <article class="Panneau_gauche">
+      <h2 id="pg"> cv partie gauche </h2>
+      <section id="Apropos">
+         <h2>À propos</h2>
+         <img src="img" width=200 height=200 alt="photoCV" title="photo" />
+         <p>
+            bla bla bla
+         </p>
+      </section>
+      <section id="Langues">
+         <h2>Langues</h2>
+         <ul>
+            <li>Français : </li>
+            <li>Anglais : </li>
+            <li>Allemand : </li>
+         </ul>
+      </section>
+      <section id="CompetencesInformatique">
+         <h2>Compétences Informatiques</h2>
+         <ul>
+            <li>bla bla</li>
+            <li>bla bla</li>
+            <li>bla bla</li>
+            <li>bla bla</li>
+         </ul>
+      </section>
+      <section id="Interet">
+         <h2>Centres d'intérêt</h2>
+         <ul>
+            <li> bla bla</li>
+            <li>bla bla</li>
+            <li>bla bla</li>
+         </ul>
+      </section>
+   </article>
+   <article class="panneau_droite">
+      <h2 id="pd"> cv partie droite</h2>
+      <section id="Experiences">
+         <h2>Expériences Profesionnelles</h2>
+         <ul>
+            <li>
+               bla bla
+               <!-- Coller du texte </li> -->
+            </li>
+            <li>
+               bla bla
+               <!-- Coller du texte </li> -->
+            </li>
+            <li>
+               bla bla
+               <!-- Coller du texte </li> -->
+            </li>
+         </ul>
+      </section>
+      <section id="DiplomesFormations">
+         <h2>Diplômes et Formations</h2>
+         <ul>
+            <li> bla bla
+            </li>
+            <li> bla bla
+            </li>
+            <li> bla bla
+            </li>
+            <li>bla bla
+            </li>
+         </ul>
+      </section>
+      <section id="Projets">
+         <h2>Mes Projets</h2>
+         <p> Mettre du texte</p>
+         <!-- Coller du texte </li>-->
+      </section>
 
-   <header></header>
-
-   <nav></nav>
-
-   <aside></aside>
-
-   <article></article>
-
-   <section></section>
-   
-   <footer></footer>
-
-   <h2>contact / réseaux sociaux</h2>
-   <ul>
-      <li> <strong>
-            <form action="gestion_data.php" method="POST">
-               <label for="nom">Nom</label>
-               <input type="text" id="nom" name="nom">
-               <br><br>
-         </strong>
-      </li>
-      <li> <strong>
-            <form action="gestion_data.php" method="POST">
-               <label for="nom">Prenom</label>
-               <input type="text" id="nom" name="nom">
-               <br><br>
-         </strong>
-      </li>
-      <label for="">Mon courriel</label>
-      <input type="email" name="" id=""> <br><br> </li>
-      <h2> couleur de votre choix </h2>
-      <label for="">
-         rouge
-         <input type="checkbox" name="" id="">
-      </label><br>
-      <label for="">
-         vert
-         <input type="checkbox" name="" id="">
-         <label for=""><br>
-            jaune
+      <h2>contact / réseaux sociaux</h2>
+      <ul>
+         <li> <strong>
+               <form action="gestion_data.php" method="POST">
+                  <label for="nom">Nom</label>
+                  <input type="text" id="nom" name="nom">
+                  <br><br>
+            </strong>
+         </li>
+         <li> <strong>
+               <form action="gestion_data.php" method="POST">
+                  <label for="nom">Prenom</label>
+                  <input type="text" id="nom" name="nom">
+                  <br><br>
+            </strong>
+         </li>
+         <label for="">Mon courriel</label>
+         <input type="email" name="" id=""> <br><br> </li>
+         <h2> couleur de votre choix </h2>
+         <label for="">
+            rouge
             <input type="checkbox" name="" id="">
          </label><br>
          <label for="">
-            bleu
+            vert
             <input type="checkbox" name="" id="">
-         </label><br><br>
-         <li> <label for="">
-               <h2>saisissez un message</h2>
+            <label for=""><br>
+               jaune
+               <input type="checkbox" name="" id="">
             </label><br>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-            <br>
-            <label for="">Langue</label>
-            <select name="test" id="test">
+            <label for="">
+               bleu
+               <input type="checkbox" name="" id="">
+            </label><br><br>
+            <li> <label for="">
+                  <h2>saisissez un message</h2>
+               </label><br>
+               <textarea name="" id="" cols="30" rows="10"></textarea>
+               <br>
+               <label for="">Langue</label>
+               <select name="test" id="test">
 
-               <option value="0">Français</option>
-               <option value="1">Allemand</option>
-               <option value="2">Anglais</option>
-               <option value="3">Espagnol</option>
-            </select>
-            <br>
-            <br>
-            <strong>
-         </li>
-   </ul>
-   <h2>Tranche d' age:</h2> <label for="">Age</label> <br>
-   <label for="">
-      - de 18 Anglais
-      <input type="radio" name="Age" id="s">
-   </label><br>
-   <label for="">
-      18 à 25 ans
-      <input type="radio" name="Age" id="s">
-   </label><br>
-   <label for="">
-      25 à 50 ans
-      <input type="radio" name="Age" id="s">
-   </label><br>
-   <label for="">
-      + de 50 ans
-      <input type="radio" name="Age" id="s">
-   </label><br>
-   <br>
-   reset: <label for="">reset</label>
-   <input type="reset" value="reset"> <br>
-   <br>
+                  <option value="0">Français</option>
+                  <option value="1">Allemand</option>
+                  <option value="2">Anglais</option>
+                  <option value="3">Espagnol</option>
+               </select>
+               <br>
+               <br>
+               <strong>
+            </li>
+      </ul>
+      <h2>Tranche d' age:</h2> <label for="">Age</label> <br>
+      <label for="">
+         - de 18 Anglais
+         <input type="radio" name="Age" id="s">
+      </label><br>
+      <label for="">
+         18 à 25 ans
+         <input type="radio" name="Age" id="s">
+      </label><br>
+      <label for="">
+         25 à 50 ans
+         <input type="radio" name="Age" id="s">
+      </label><br>
+      <label for="">
+         + de 50 ans
+         <input type="radio" name="Age" id="s">
+      </label><br>
+      <br>
+      reset: <label for="">reset</label>
+      <input type="reset" value="reset"> <br>
+      <br>
 
-   submit: <label for="">submit</label>
-   <input type="submit" value="submit"> <br>
-   <br>
+      submit: <label for="">submit</label>
+      <input type="submit" value="submit"> <br>
+      <br>
 
 
 
