@@ -1,15 +1,56 @@
-body
+body  
 {
     font-family: Arial, sans-serif;
-    font-size: 100%;
+    background-color: #249E3D;
+    color: white;
+    text-align: center;
+    font-size: 130%;
+    
+}
+body ul
+{
+    text-align: center;
+    display: inline;
 }
 
 header
-{
+{   color: black;
     text-align: center;
+    
 }
+header, h1, h2
+{
+    font-family: "ma_police", sans-serif;
+    text-transform: uppercase;
+    color:#C7D1C9;
 
-#pg, #pd, #bp
+}
+#Apropos 
+{
+    text-align: center; 
+}
+#pg, #pd, #bp 
 {
     visibility: hidden;
+}
+.bas_page 
+{
+    text-align: right;
+    font-size: 50%;
+    
+}
+p, li
+{
+    font-size: 120%;
+}
+img
+{
+    border-radius: 8px;
+}
+
+/* Police   */
+@font-face 
+{
+font-family: "ma_police";
+src: url("2381.ttf");
 }
