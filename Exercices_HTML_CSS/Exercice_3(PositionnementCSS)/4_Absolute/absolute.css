@@ -1,0 +1,35 @@
+.vert
+{
+    background-color: green;
+    width: 40px;
+    position: absolute;
+    padding: 20px;
+    border : 1px solid black;
+    top: 100px;
+    left: 90px;
+}
+.bleu
+{
+    background-color: blue;
+    position: relative;
+    padding: 20px;
+    border : 1px solid black;
+}
+.orange
+{
+    background-color: orange;
+    width: 5px;
+    position: absolute;
+    padding: 20px;
+    border : 1px solid black;
+    top: 70px;
+    left: 85px;
+}
+.cyan
+{
+    background-color: cyan;
+    width: 280px;
+    position: absolute;
+    padding: 20px;
+    border : 1px solid black;
+}
