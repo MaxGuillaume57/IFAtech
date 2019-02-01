@@ -1,3 +1,17 @@
+/* Entête */
+
+header
+{   color: black;
+    text-align: center;
+    
+}
+header, h1, h2
+{
+    font-family: "ma_police", sans-serif;
+    text-transform: uppercase;
+    color:#C7D1C9;
+
+}
 
 /* Corps du cv */
 
@@ -24,22 +38,8 @@ p, li
     text-align: center; 
 }
 
-/* Entête */
-
-header
-{   color: black;
-    text-align: center;
-    
-}
-header, h1, h2
-{
-    font-family: "ma_police", sans-serif;
-    text-transform: uppercase;
-    color:#C7D1C9;
-
-}
-
 /* Partie cachée  */
+
 #pg, #pd, #bp 
 {
     visibility: hidden;
@@ -54,7 +54,6 @@ header, h1, h2
     
 }
 
-
 /* images */
 
 img
@@ -63,6 +62,7 @@ img
 }
 
 /* Police   */
+
 @font-face 
 {
 font-family: "ma_police";
