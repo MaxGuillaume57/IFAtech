@@ -1,3 +1,6 @@
+
+/* Corps du cv */
+
 body  
 {
     font-family: Arial, sans-serif;
@@ -12,6 +15,16 @@ body ul
     text-align: center;
     display: inline;
 }
+p, li
+{
+    font-size: 120%;
+}
+#Apropos 
+{
+    text-align: center; 
+}
+
+/* Entête */
 
 header
 {   color: black;
@@ -25,24 +38,25 @@ header, h1, h2
     color:#C7D1C9;
 
 }
-#Apropos 
-{
-    text-align: center; 
-}
+
+/* Partie cachée  */
 #pg, #pd, #bp 
 {
     visibility: hidden;
 }
+
+/* Pied de page  */
+
 .bas_page 
 {
     text-align: right;
     font-size: 50%;
     
 }
-p, li
-{
-    font-size: 120%;
-}
+
+
+/* images */
+
 img
 {
     border-radius: 8px;
