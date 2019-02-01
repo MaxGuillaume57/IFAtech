@@ -1,0 +1,25 @@
+.vert
+{
+    background-color: green;
+    width: 200px;
+    position: absolute;
+    padding: 30px;
+    border : 1px solid black;
+}
+.bleu
+{
+    background-color: blue;
+    left: 60px;
+    top: 2.5px;
+    position: relative;
+    padding: 20px;
+    border : 1px solid black;
+}
+.orange
+{
+    background-color: orange;
+    right: 160px;
+    position: relative;
+    padding: 20px;
+    border : 1px solid black;
+}
