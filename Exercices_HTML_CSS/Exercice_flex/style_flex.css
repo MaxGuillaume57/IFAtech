@@ -1,0 +1,64 @@
+*
+{
+    margin: 0;
+    padding: 0;  
+}
+body
+{
+    height: 100vh ;
+    display: flex;
+    flex-direction: column;    
+}
+header
+{
+    background-color: red; 
+    flex : 1;
+    text-align: center;
+}
+ul
+{
+    display: flex;
+    justify-content: space-around ;
+    list-style: none; 
+    padding:0;
+}
+li
+{
+    border: 1px solid black;
+    flex : 1;
+}
+article
+{
+    flex : 5;
+    display: flex;
+}
+.aside1
+{
+    background-color: yellow;  
+    flex:1;
+}
+   
+.paragraphes
+{
+    background-color: lightblue;    
+    display: flex;
+    text-align: justify;
+    flex:3;
+    padding: 50px;    
+}
+p
+{
+padding-inline-start: 50px;
+}
+.aside2
+{
+    background-color: plum; 
+    flex:1;
+}
+footer
+{
+    background-color: lightgreen; 
+    flex : 0.5 ;
+    text-align: center;
+
+}  
