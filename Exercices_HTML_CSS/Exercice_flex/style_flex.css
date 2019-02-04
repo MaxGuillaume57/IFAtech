@@ -42,13 +42,14 @@ article
 {
     background-color: lightblue;    
     display: flex;
-    text-align: justify;
     flex:3;
+    flex-flow: row wrap;
     padding: 50px;    
 }
-p
+.paragraphes p
 {
-padding-inline-start: 50px;
+padding-inline-start: 20px;
+flex : 1 0 300px;
 }
 .aside2
 {
