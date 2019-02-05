@@ -1,7 +1,7 @@
 #menu
 {
     background-color: darkorange;
-    color : lightgrey;
+    color: lightgray;
     width: 150px;
     height: 120px;
     border-radius: 10px;
@@ -10,5 +10,6 @@
     float:left;
     position: -webkit-sticky;
     position: sticky;
-    top: 0px;   
+    top: 0px;
+ 
 }
