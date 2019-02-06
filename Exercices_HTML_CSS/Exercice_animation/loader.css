@@ -1,0 +1,79 @@
+body{
+    margin:50px;
+    background-color: bisque;
+}
+
+.r1{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border : 3px solid black;
+    background-color: blue;
+    display: inline-block;
+
+    animation-name: load1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+}
+
+.r2{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border : 3px solid black;
+    background-color: white;
+    display: inline-block;
+
+    animation-name: load2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+}
+
+.r3{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border : 3px solid black;
+    background-color: red;
+    display: inline-block;
+
+    animation-name: load3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 3s;
+
+}
+
+
+@keyframes load1  {
+    0% {
+        background-color:blue;
+    }
+
+    100% {
+        background-color: rgba(0, 0, 255, 0.493);
+}}
+
+@keyframes load2 {
+    0% {
+        background-color:white;
+    }
+
+    100% {
+        background-color: rgb(226, 220, 220);
+    
+}}
+@keyframes load3 {
+    0% {
+        background-color:red;
+    }
+
+    100% {
+        background-color: rgba(255, 0, 0, 0.548);
+    
+}}
