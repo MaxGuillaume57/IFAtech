@@ -1,0 +1,63 @@
+.fond
+{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background-color: rgb(195, 186, 186);
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+
+.c1
+{
+width: 20px;
+height:20px;
+background-color: pink;
+position: absolute;
+text-align: center;
+line-height: 20px;
+border-radius: 1px;
+animation-name: bouge;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-delay: 0s;
+}
+.c2
+{
+width: 20px;
+height:20px;
+background-color: blue;
+position: absolute;
+text-align: center;
+line-height: 20px;
+border-radius: 1px;
+animation-name: bouge;
+animation-duration: 5s;
+animation-delay: 1s;
+animation-iteration-count: infinite;
+}
+.c3
+{
+width: 20px;
+height:20px;
+background-color: greenyellow;
+position: absolute;
+text-align: center;
+line-height: 20px;
+border-radius: 1px;
+animation-name: bouge;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-delay: 2s;
+}
+
+@keyframes bouge 
+{
+    0%   {left:0px; top:0px;}
+    25%   {left:370px; top:0px; transform : rotate(360deg);}
+    50%   {left:370px; top:370px; transform : rotate(0deg);}
+    75%   {left:0px; top:370px; transform : rotate(360deg);}
+   100%   {left:0px ;top:0px;  transform : rotate(0deg);}
+    
+}
