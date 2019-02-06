@@ -6,7 +6,7 @@
     background-repeat:no-repeat;
     background-position:center center;
     animation-name: rebond;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
@@ -14,18 +14,29 @@
 {
     border: 3px solid rgb(165, 147, 147);
     width: 60px;
-    height: 400px;
+    height: 480px;
     background-color: rgb(107, 190, 223);
 }  
  
 @keyframes rebond {
 
  0% {
-     transform: translateY(0px);
+        transform: translateY(0px);
     }
-
+25% {
+        transform: translateY(440px);
+    }
+50% {
+       transform: translateY(350px);
+    }
+75% {
+       transform: translateY(440px);
+    }   
+85% {
+       transform: translateY(400px);
+}     
 100% {
-    transform: translateY(345px);
+       transform: translateY(440px);
      }
 
 }
