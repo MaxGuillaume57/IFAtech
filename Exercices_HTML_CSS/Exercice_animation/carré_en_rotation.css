@@ -5,7 +5,7 @@ div
     border-radius: 20px;
     background-image: url("img2.jpg");
     margin: 100px;
-    border: 5px solid;
+    border: 10px solid;
     animation-name : color;
     animation-duration: 4s;
     animation-direction: alternate;
